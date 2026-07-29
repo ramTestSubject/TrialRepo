@@ -1,0 +1,1467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micheal Anto Jerrish C | Web Developer & CSE Student</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Micheal Anto Jerrish C, a Computer Science Engineering student and Web Developer specializing in premium modern digital experiences, AI, and AR/VR."
+    />
+    <meta
+      name="keywords"
+      content="Micheal Anto Jerrish C, Web Developer, Portfolio, Computer Science student, Panimalar Engineering College, React, JavaScript, UI/UX"
+    />
+    <meta name="author" content="Micheal Anto Jerrish C" />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- Ambient background glow elements (aurora spots) -->
+    <div class="aurora-glow glow-1"></div>
+    <div class="aurora-glow glow-2"></div>
+
+    <!-- Preloading Screen -->
+    <div id="loader">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading System...</div>
+    </div>
+
+    <!-- Header / Navigation Bar -->
+    <header id="header">
+      <div class="container nav-container">
+        <a href="#hero" class="logo">
+          <i class="fa-solid fa-code"></i> <span>Jerrish.dev</span>
+        </a>
+        <nav aria-label="Main Navigation">
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li>
+              <a href="#certifications" class="nav-link">Certifications</a>
+            </li>
+            <li><a href="#experience" class="nav-link">Activities</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <!-- Theme Toggle -->
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle Theme"
+          >
+            <i class="fa-solid fa-moon" id="theme-icon"></i>
+          </button>
+          <!-- Mobile Menu Toggle -->
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open navigation menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <span class="hero-subtitle">Engineering the future</span>
+          <h1 class="hero-title">Micheal Anto<br /><span>Jerrish C</span></h1>
+
+          <!-- Typing text for roles -->
+          <div class="hero-typing">
+            <p>I am a <span class="typed-text" id="typed-text"></span></p>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary"
+              ><i class="fa-solid fa-arrow-right"></i> View Projects</a
+            >
+            <a
+              href="assets/resume/Micheal Anto Jerrish - Resume.pdf"
+              download="Micheal Anto Jerrish - Resume.pdf"
+              class="btn btn-secondary"
+              id="resume-btn"
+              ><i class="fa-solid fa-arrow-down-to-line"></i> Download Resume</a
+            >
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <!-- Professional profile image with glow framework -->
+          <div class="avatar-frame">
+            <img
+              src="assets/profile.jpg"
+              alt="Micheal Anto Jerrish C profile avatar"
+              width="312"
+              height="312"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <div class="about-new-grid">
+          <!-- Left Column: Intro & Stats -->
+          <div class="about-left-col reveal">
+            <h2 class="section-title" style="margin-bottom: 0.5rem">
+              About Me
+            </h2>
+            <p class="about-subheading">
+              Building meaningful digital experiences through code, creativity,
+              and continuous learning.
+            </p>
+            <p class="about-intro-text">
+              Hi, I'm Micheal Anto Jerrish C, a Computer Science Engineering
+              student passionate about Web Development, AI, and AR/VR
+              technologies. I enjoy building impactful projects, leading
+              technical communities, and continuously learning new technologies.
+            </p>
+
+            <!-- Achievement Cards -->
+            <div class="about-new-stats">
+              <div class="glass-card new-stat-card">
+                <div class="new-stat-icon">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="new-stat-value">8.7 / 10</div>
+                <div class="new-stat-title">CGPA</div>
+              </div>
+              <div class="glass-card new-stat-card">
+                <div class="new-stat-icon">
+                  <i class="fa-solid fa-folder-open"></i>
+                </div>
+                <div class="new-stat-value">4+</div>
+                <div class="new-stat-title">Featured Projects</div>
+              </div>
+              <div class="glass-card new-stat-card">
+                <div class="new-stat-icon">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="new-stat-value">Team Leader</div>
+                <div class="new-stat-title">Coders Forum</div>
+              </div>
+              <div class="glass-card new-stat-card">
+                <div class="new-stat-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="new-stat-value">6+</div>
+                <div class="new-stat-title">Communities</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Focus Cards -->
+          <div class="about-right-col reveal">
+            <!-- 1. Leadership -->
+            <div class="glass-card about-focus-card">
+              <div class="focus-icon">
+                <i class="fa-solid fa-people-group"></i>
+              </div>
+              <div class="focus-details">
+                <h3>Leadership &amp; Community</h3>
+                <p>
+                  Leading the Coders Forum and actively participating in
+                  technical communities including AWS Club, NCC, YRC, Game
+                  Development Club, and Unique Automators Club.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2. Innovation -->
+            <div class="glass-card about-focus-card">
+              <div class="focus-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <div class="focus-details">
+                <h3>Innovation &amp; Development</h3>
+                <p>
+                  Building projects in Web Development, AI, Machine Learning,
+                  Data Analytics, and exploring immersive AR/VR technologies.
+                </p>
+              </div>
+            </div>
+
+            <!-- 3. Learning -->
+            <div class="glass-card about-focus-card">
+              <div class="focus-icon">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <div class="focus-details">
+                <h3>Continuous Growth</h3>
+                <p>
+                  Focused on improving technical expertise through projects,
+                  certifications, research, and hands-on learning experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Facts Row -->
+        <div class="about-quick-facts reveal">
+          <h3 class="facts-title">Quick Facts</h3>
+          <div class="facts-badges-container">
+            <span class="fact-badge-pill"
+              >🎓 B.E. Computer Science Engineering</span
+            >
+            <span class="fact-badge-pill"
+              >🏫 Panimalar Engineering College</span
+            >
+            <span class="fact-badge-pill">💻 Web Developer</span>
+            <span class="fact-badge-pill">☁️ AWS Club Member</span>
+            <span class="fact-badge-pill">🏆 Coders Forum Team Leader</span>
+            <span class="fact-badge-pill">🏅 NCC Cadet</span>
+            <span class="fact-badge-pill">🤝 YRC Volunteer</span>
+            <span class="fact-badge-pill">🥽 AR/VR Enthusiast</span>
+            <span class="fact-badge-pill">🤖 AI Enthusiast</span>
+          </div>
+        </div>
+
+        <!-- Personal Mission Statement -->
+        <div class="about-mission-statement reveal">
+          <div class="mission-quote-icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <blockquote>
+            "I believe technology should not only solve problems but also create
+            meaningful experiences for the people who use it."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Technical Stack</h2>
+        <p class="reveal section-desc">
+          A curated list of languages and tools I work with to construct robust
+          digital platforms.
+        </p>
+        <div class="skills-container">
+          <!-- HTML -->
+          <div class="glass-card skill-progress-card reveal" id="skill-html">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-html5"></i> HTML</span
+              >
+              <span class="skill-level">90% · Advanced</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="90"></div>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="glass-card skill-progress-card reveal" id="skill-css">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-css3-alt"></i> CSS</span
+              >
+              <span class="skill-level">85% · Proficient</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="85"></div>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div
+            class="glass-card skill-progress-card reveal"
+            id="skill-javascript"
+          >
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-square-js"></i> JavaScript</span
+              >
+              <span class="skill-level">80% · Proficient</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="80"></div>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="glass-card skill-progress-card reveal" id="skill-java">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-java"></i> Java</span
+              >
+              <span class="skill-level">80% · Proficient</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="80"></div>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="glass-card skill-progress-card reveal" id="skill-python">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-python"></i> Python</span
+              >
+              <span class="skill-level">80% · Proficient</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="80"></div>
+            </div>
+          </div>
+
+          <!-- Git & GitHub -->
+          <div class="glass-card skill-progress-card reveal" id="skill-git">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-brands fa-github"></i> Git & GitHub</span
+              >
+              <span class="skill-level">80% · Proficient</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="80"></div>
+            </div>
+          </div>
+
+          <!-- C -->
+          <div class="glass-card skill-progress-card reveal" id="skill-c">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-solid fa-c"></i> C Language</span
+              >
+              <span class="skill-level">50% · Intermediate</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="50"></div>
+            </div>
+          </div>
+
+          <!-- Vibe Coding -->
+          <div class="glass-card skill-progress-card reveal" id="skill-vibe">
+            <div class="skill-info">
+              <span class="skill-name"
+                ><i class="fa-solid fa-wand-magic-sparkles"></i> Vibe
+                Coding</span
+              >
+              <span class="skill-level">95% · Advanced</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-bar" data-percent="95"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Strengths Section -->
+    <section id="professional-strengths">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Professional Strengths</h2>
+        <p class="reveal section-desc">
+          Interpersonal skills, leadership experience, and working habits that
+          complement my technical capabilities to drive successful engineering
+          collaborations.
+        </p>
+
+        <div class="strengths-wrapper">
+          <!-- Featured Leadership Card -->
+          <div
+            class="glass-card strength-featured-card reveal"
+            id="strength-leadership"
+          >
+            <div class="strength-featured-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="strength-featured-content">
+              <span class="strength-featured-tag">Featured Strength</span>
+              <h3 class="strength-featured-title">Leadership Experience</h3>
+              <h4 class="strength-featured-role">
+                Team Leader &mdash; Coders Forum
+              </h4>
+              <p class="strength-featured-desc">
+                Demonstrated leadership capability by guiding technical squads,
+                mentoring peers, and coordinating coding activities.
+              </p>
+              <div class="strength-featured-bullets">
+                <span class="bullet-pill"
+                  ><i class="fa-solid fa-laptop-code"></i> Organizing technical
+                  activities</span
+                >
+                <span class="bullet-pill"
+                  ><i class="fa-solid fa-users"></i> Coordinating team
+                  efforts</span
+                >
+                <span class="bullet-pill"
+                  ><i class="fa-solid fa-graduation-cap"></i> Mentoring
+                  peers</span
+                >
+                <span class="bullet-pill"
+                  ><i class="fa-solid fa-circle-nodes"></i> Promoting
+                  collaborative learning</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Grid of Other 7 Strengths -->
+          <div class="strengths-grid">
+            <!-- 1. Effective Communication -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+              <div class="strength-info">
+                <h3>Effective Communication</h3>
+                <p>
+                  Expressing ideas clearly and collaborating effectively in
+                  technical and non-technical environments.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2. Teamwork -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon"><i class="fa-solid fa-users"></i></div>
+              <div class="strength-info">
+                <h3>Teamwork</h3>
+                <p>
+                  Working collaboratively with diverse groups to achieve common
+                  objectives.
+                </p>
+              </div>
+            </div>
+
+            <!-- 3. Problem Solving -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <div class="strength-info">
+                <h3>Problem Solving</h3>
+                <p>
+                  Analyzing challenges and developing practical solutions
+                  efficiently.
+                </p>
+              </div>
+            </div>
+
+            <!-- 4. Critical Thinking -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="strength-info">
+                <h3>Critical Thinking</h3>
+                <p>
+                  Evaluating information logically and making informed
+                  decisions.
+                </p>
+              </div>
+            </div>
+
+            <!-- 5. Adaptability -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon">
+                <i class="fa-solid fa-arrows-spin"></i>
+              </div>
+              <div class="strength-info">
+                <h3>Adaptability</h3>
+                <p>
+                  Quickly learning and adjusting to new technologies,
+                  environments, and challenges.
+                </p>
+              </div>
+            </div>
+
+            <!-- 6. Time Management -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon">
+                <i class="fa-solid fa-calendar-check"></i>
+              </div>
+              <div class="strength-info">
+                <h3>Time Management</h3>
+                <p>
+                  Managing multiple responsibilities while meeting deadlines
+                  effectively.
+                </p>
+              </div>
+            </div>
+
+            <!-- 7. Enthusiastic Learner -->
+            <div class="glass-card strength-card reveal">
+              <div class="strength-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div class="strength-info">
+                <h3>Enthusiastic Learner</h3>
+                <p>
+                  Continuously exploring new technologies and improving
+                  technical skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <p class="reveal section-desc">
+          A curated selection of my core engineering works, reflecting domain
+          expertise in AI, data analytics, and fullstack systems.
+        </p>
+
+        <div class="projects-featured-grid">
+          <!-- Project 1: AI Career Recommendation Bot -->
+          <div
+            class="glass-card project-card featured-project-card reveal"
+            id="project-ai-career"
+            data-project-key="ai-career-recommendation-bot"
+          >
+            <div class="project-visual">
+              <svg
+                class="project-svg"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="var(--accent-primary)"
+                  stroke-width="1.5"
+                  stroke-dasharray="4 4"
+                  opacity="0.3"
+                />
+                <circle cx="30" cy="35" r="6" fill="var(--accent-primary)" />
+                <circle cx="70" cy="35" r="6" fill="var(--accent-secondary)" />
+                <circle cx="50" cy="70" r="8" fill="var(--accent-primary)" />
+                <path
+                  d="M30 35L50 70M70 35L50 70"
+                  stroke="var(--text-secondary)"
+                  stroke-width="1"
+                  opacity="0.4"
+                />
+                <path
+                  d="M50 20V50"
+                  stroke="var(--accent-secondary)"
+                  stroke-width="1.5"
+                  stroke-dasharray="2 2"
+                />
+              </svg>
+            </div>
+            <div class="project-body">
+              <span class="project-category-badge"
+                >Machine Learning / Career Guidance</span
+              >
+              <h3 class="project-title">AI Career Recommendation Bot</h3>
+              <p class="project-desc">
+                An AI-powered Python bot that recommends tech career paths based
+                on user interests in hardware or software domains. Built with
+                pure Python and designed for students and job seekers.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">AI/NLP</span>
+                <span class="project-tag">ML Models</span>
+              </div>
+
+              <div class="project-meta">
+                <span class="project-meta-item project-stars"
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="stars-count">0</span> stars</span
+                >
+                <span class="project-meta-item project-updated"
+                  ><i class="fa-solid fa-clock"></i>
+                  <span class="updated-date">Updated recently</span></span
+                >
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://github.com/Jerrish-py/ai-career-recommendation-bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary project-btn project-github-link"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+                <button
+                  class="btn btn-primary project-btn view-details-trigger"
+                  data-project-key="ai-career-recommendation-bot"
+                >
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Food Rescue App -->
+          <div
+            class="glass-card project-card featured-project-card reveal"
+            id="project-food-rescue"
+            data-project-key="food-rescue-app"
+          >
+            <div class="project-visual">
+              <svg
+                class="project-svg"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M50 30C55 20 70 20 75 30C80 40 50 65 50 65C50 65 20 40 25 30C30 20 45 20 50 30Z"
+                  fill="var(--accent-secondary)"
+                  opacity="0.15"
+                />
+                <path
+                  d="M50 30C55 20 70 20 75 30C80 40 50 65 50 65C50 65 20 40 25 30C30 20 45 20 50 30Z"
+                  stroke="var(--accent-secondary)"
+                  stroke-width="1.5"
+                />
+                <circle cx="50" cy="42" r="4" fill="var(--accent-primary)" />
+                <path
+                  d="M35 50C40 55 60 55 65 50"
+                  stroke="var(--accent-primary)"
+                  stroke-width="1"
+                  opacity="0.5"
+                />
+              </svg>
+            </div>
+            <div class="project-body">
+              <span class="project-category-badge"
+                >Social Impact / Web Application</span
+              >
+              <h3 class="project-title">Food Rescue App</h3>
+              <p class="project-desc">
+                A web application dedicated to minimizing food waste by
+                connecting local businesses with shelters to rescue surplus food
+                and distribute it efficiently.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">TypeScript</span>
+                <span class="project-tag">Web App</span>
+                <span class="project-tag">React</span>
+              </div>
+
+              <div class="project-meta">
+                <span class="project-meta-item project-stars"
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="stars-count">0</span> stars</span
+                >
+                <span class="project-meta-item project-updated"
+                  ><i class="fa-solid fa-clock"></i>
+                  <span class="updated-date">Updated recently</span></span
+                >
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://github.com/Jerrish-py/food-rescue-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary project-btn project-github-link"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+                <button
+                  class="btn btn-primary project-btn view-details-trigger"
+                  data-project-key="food-rescue-app"
+                >
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Electricity Consumption Analysis -->
+          <div
+            class="glass-card project-card featured-project-card reveal"
+            id="project-electricity"
+            data-project-key="ELECTRICITY-CONSUMPTION-ANALYSIS"
+          >
+            <div class="project-visual">
+              <svg
+                class="project-svg"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 70L35 70L45 30L55 80L65 50L75 70L80 70"
+                  stroke="var(--accent-primary)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle cx="55" cy="80" r="4" fill="var(--accent-secondary)" />
+                <circle cx="45" cy="30" r="4" fill="var(--accent-secondary)" />
+                <line
+                  x1="20"
+                  y1="70"
+                  x2="80"
+                  y2="70"
+                  stroke="var(--text-secondary)"
+                  stroke-width="1"
+                  stroke-dasharray="4 4"
+                  opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="project-body">
+              <span class="project-category-badge">Data Analytics</span>
+              <h3 class="project-title">Electricity Consumption Analysis</h3>
+              <p class="project-desc">
+                An AI-powered application to detect anomalies in electricity
+                consumption. This project uses personalized, time-aware
+                IsolationForest models for each client to identify patterns of
+                fraud or equipment failure with high accuracy.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Jupyter Notebook</span>
+                <span class="project-tag">IsolationForest</span>
+              </div>
+
+              <div class="project-meta">
+                <span class="project-meta-item project-stars"
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="stars-count">0</span> stars</span
+                >
+                <span class="project-meta-item project-updated"
+                  ><i class="fa-solid fa-clock"></i>
+                  <span class="updated-date">Updated recently</span></span
+                >
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://github.com/Jerrish-py/ELECTRICITY-CONSUMPTION-ANALYSIS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary project-btn project-github-link"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+                <button
+                  class="btn btn-primary project-btn view-details-trigger"
+                  data-project-key="ELECTRICITY-CONSUMPTION-ANALYSIS"
+                >
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Disease Predictor -->
+          <div
+            class="glass-card project-card featured-project-card reveal"
+            id="project-disease"
+            data-project-key="Disease-Predictor"
+          >
+            <div class="project-visual">
+              <svg
+                class="project-svg"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 50H35L42 20L48 80L55 40L60 60L65 50H85"
+                  stroke="var(--accent-secondary)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <rect
+                  x="35"
+                  y="45"
+                  width="30"
+                  height="10"
+                  fill="var(--accent-primary)"
+                  opacity="0.1"
+                />
+                <line
+                  x1="15"
+                  y1="50"
+                  x2="85"
+                  y2="50"
+                  stroke="var(--text-secondary)"
+                  stroke-width="0.75"
+                  stroke-dasharray="2 2"
+                  opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="project-body">
+              <span class="project-category-badge"
+                >Machine Learning / Healthcare</span
+              >
+              <h3 class="project-title">Disease Predictor</h3>
+              <p class="project-desc">
+                Heart Disease Prediction using ML – A model that analyzes
+                patient data to predict heart disease risk.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Jupyter Notebook</span>
+                <span class="project-tag">Healthcare ML</span>
+              </div>
+
+              <div class="project-meta">
+                <span class="project-meta-item project-stars"
+                  ><i class="fa-solid fa-star"></i>
+                  <span class="stars-count">0</span> stars</span
+                >
+                <span class="project-meta-item project-updated"
+                  ><i class="fa-solid fa-clock"></i>
+                  <span class="updated-date">Updated recently</span></span
+                >
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://github.com/Jerrish-py/Disease-Predictor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary project-btn project-github-link"
+                  ><i class="fa-brands fa-github"></i> Code</a
+                >
+                <button
+                  class="btn btn-primary project-btn view-details-trigger"
+                  data-project-key="Disease-Predictor"
+                >
+                  <i class="fa-solid fa-circle-info"></i> View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View All Action Section -->
+        <div
+          class="projects-actions-footer reveal"
+          style="text-align: center; margin-top: 3.5rem"
+        >
+          <button
+            id="btn-view-all-projects"
+            class="btn btn-secondary btn-large"
+            style="padding: 0.9rem 2.2rem; font-size: 0.95rem"
+          >
+            <i class="fa-solid fa-cubes"></i> View All Projects
+          </button>
+        </div>
+
+        <!-- Loading State for Dynamically Loaded Repos -->
+        <div
+          id="gallery-loader"
+          class="gallery-loader"
+          style="display: none; text-align: center; margin-top: 2rem"
+        >
+          <div class="loader-spinner" style="margin: 0 auto 10px auto"></div>
+          <p class="loader-text" style="margin-top: 5px">
+            Retrieving repositories from GitHub...
+          </p>
+        </div>
+
+        <!-- Secondary Projects Gallery -->
+        <div
+          id="github-projects-gallery"
+          class="secondary-projects-grid"
+          style="display: none; margin-top: 3rem"
+        >
+          <!-- Loaded dynamically from GitHub API -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Certifications & Achievements</h2>
+        <p class="reveal section-desc">
+          Professional credentials and certified coursework validating my
+          expertise in databases, cloud engineering, machine learning, and
+          frontend standards.
+        </p>
+
+        <div class="certs-grid">
+          <!-- 1. Database Management Systems (DBMS) - NPTEL -->
+          <div class="glass-card cert-card reveal" id="cert-dbms">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+              <span class="cert-issuer-badge nptel">NPTEL</span>
+            </div>
+            <div class="cert-info">
+              <h3>Database Management Systems</h3>
+              <p>
+                Advanced study of relational database models, normal forms,
+                transaction schedules, concurrency controls, indexing, and SQL
+                optimization.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-date"
+                  ><i class="fa-solid fa-calendar-day"></i> Jan 2025</span
+                >
+                <a
+                  href="https://nptel.ac.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cert-link"
+                  >Verify Credentials
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Front-End Web Development - AICTE -->
+          <div class="glass-card cert-card reveal" id="cert-frontend">
+            <div class="cert-card-header">
+              <div class="cert-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <span class="cert-issuer-badge aicte">AICTE</span>
+            </div>
+            <div class="cert-info">
+              <h3>Front-End Web Development</h3>
+              <p>
+                Practical frontend engineering curriculum concentrating on
+                responsive interfaces, modern semantic web constructs, and
+                JavaScript components.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-date"
+                  ><i class="fa-solid fa-calendar-day"></i> Aug 2024</span
+                >
+                <a
+                  href="https://internship.aicte-india.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cert-link"
+                  >Verify Credentials
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Azure AI - AICTE × Edunet Foundation -->
+          <div class="glass-card cert-card reveal" id="cert-azure-ai">
+            <div class="cert-card-header">
+              <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+              <span class="cert-issuer-badge edunet">AICTE &times; Edunet</span>
+            </div>
+            <div class="cert-info">
+              <h3>Azure AI Fundamentals</h3>
+              <p>
+                Exploring cloud AI capabilities, cognitive vision services,
+                conversational AI agents, and machine learning deployments on
+                Microsoft Azure.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-date"
+                  ><i class="fa-solid fa-calendar-day"></i> Oct 2024</span
+                >
+                <a
+                  href="https://edunetfoundation.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cert-link"
+                  >Verify Credentials
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Credly Certifications - Credly -->
+          <div class="glass-card cert-card reveal" id="cert-credly">
+            <div class="cert-card-header">
+              <div class="cert-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="cert-issuer-badge credly">Credly</span>
+            </div>
+            <div class="cert-info">
+              <h3>Credly Verified Badges</h3>
+              <p>
+                Verified technical badges showcasing core competencies in
+                programming, software engineering structures, and computer
+                science foundations.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-date"
+                  ><i class="fa-solid fa-calendar-day"></i> Verified
+                  Profile</span
+                >
+                <a
+                  href="https://www.credly.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cert-link"
+                  >Verify Credentials
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. LinkedIn Learning Certifications - LinkedIn -->
+          <div class="glass-card cert-card reveal" id="cert-linkedin">
+            <div class="cert-card-header">
+              <div class="cert-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <span class="cert-issuer-badge linkedin">LinkedIn</span>
+            </div>
+            <div class="cert-info">
+              <h3>LinkedIn Learning Certifications</h3>
+              <p>
+                Certified coursework covering object-oriented Python, UI design
+                systems, responsive stylesheets, and AR product integration
+                workflows.
+              </p>
+              <div class="cert-footer">
+                <span class="cert-date"
+                  ><i class="fa-solid fa-calendar-day"></i> Ongoing</span
+                >
+                <a
+                  href="https://linkedin.com/in/micheal-anto-jerrish-b85197328"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cert-link"
+                  >View Profile
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subsection: Continuous Learning -->
+        <div
+          class="continuous-learning-section reveal"
+          style="margin-top: 5rem"
+        >
+          <h3
+            class="subsection-title"
+            style="
+              font-family: var(--font-heading);
+              font-size: 1.8rem;
+              font-weight: 700;
+              margin-bottom: 1.5rem;
+              text-align: center;
+              color: var(--text-primary);
+            "
+          >
+            Continuous Learning &amp; Badges
+          </h3>
+
+          <div class="achievement-badges-flex">
+            <!-- Badge 1: Web Development -->
+            <div class="achievement-badge">
+              <div class="badge-icon"><i class="fa-solid fa-code"></i></div>
+              <span class="badge-name">Web Development</span>
+            </div>
+
+            <!-- Badge 2: Cloud Computing -->
+            <div class="achievement-badge">
+              <div class="badge-icon"><i class="fa-solid fa-cloud"></i></div>
+              <span class="badge-name">Cloud Computing</span>
+            </div>
+
+            <!-- Badge 3: Artificial Intelligence -->
+            <div class="achievement-badge">
+              <div class="badge-icon"><i class="fa-solid fa-brain"></i></div>
+              <span class="badge-name">Artificial Intelligence</span>
+            </div>
+
+            <!-- Badge 4: Machine Learning -->
+            <div class="achievement-badge">
+              <div class="badge-icon">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <span class="badge-name">Machine Learning</span>
+            </div>
+
+            <!-- Badge 5: Database Management -->
+            <div class="achievement-badge">
+              <div class="badge-icon"><i class="fa-solid fa-database"></i></div>
+              <span class="badge-name">Database Management</span>
+            </div>
+
+            <!-- Badge 6: Problem Solving -->
+            <div class="achievement-badge">
+              <div class="badge-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <span class="badge-name">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership, Clubs & Activities Section -->
+    <section id="experience">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Leadership & Activities</h2>
+        <p class="reveal section-desc">
+          My involvement in student societies, leadership structures, and
+          community services that foster team success and personal development.
+        </p>
+
+        <div class="experience-list">
+          <!-- Prominent Leadership Highlight Card -->
+          <div
+            class="glass-card leadership-highlight-card reveal"
+            id="leadership-highlight"
+          >
+            <div class="leadership-badge-icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="leadership-highlight-details">
+              <span class="leadership-highlight-tag"
+                >🏆 Leadership Experience</span
+              >
+              <h3 class="leadership-highlight-title">
+                Lead &mdash; Coders Forum
+              </h3>
+              <p class="leadership-highlight-desc">
+                Leading technical activities, mentoring peers, organizing
+                collaborative learning sessions, and promoting innovation within
+                the student developer community.
+              </p>
+            </div>
+          </div>
+
+          <!-- Grid of Clubs and Activities -->
+          <div class="activities-grid">
+            <!-- 1. Coders Forum Leader -->
+            <div class="glass-card activity-card reveal" id="act-1">
+              <div class="activity-header-row">
+                <div class="exp-badge">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <span class="role-pill leader">Leader</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>Coders Forum</h3>
+              </div>
+              <p class="activity-desc">
+                Lead and coordinate club activities, coding sessions, technical
+                discussions, workshops, and collaborative learning initiatives.
+                Help members improve their programming, problem-solving, and
+                development skills while fostering teamwork and innovation.
+              </p>
+            </div>
+
+            <!-- 2. International Conference Presenter -->
+            <div class="glass-card activity-card reveal" id="act-2">
+              <div class="activity-header-row">
+                <div class="exp-badge">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+                <span class="role-pill presenter">Presenter</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>International Conference</h3>
+              </div>
+              <p class="activity-desc">
+                Presented the project "Immortal Conversation" at the 8th
+                International Conference for Phoenixes (PECTEAM 2K25) hosted by
+                Panimalar Engineering College. Emphasized spatial UI aesthetics,
+                natural language processing, and virtual reality interfaces.
+              </p>
+            </div>
+
+            <!-- 3. AWS Club Member -->
+            <div class="glass-card activity-card reveal" id="act-3">
+              <div class="activity-header-row">
+                <div class="exp-badge"><i class="fa-brands fa-aws"></i></div>
+                <span class="role-pill member">Member</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>AWS Club</h3>
+              </div>
+              <p class="activity-desc">
+                Actively explore cloud computing concepts, AWS services, cloud
+                architecture foundations, and industry deployment best
+                practices.
+              </p>
+            </div>
+
+            <!-- 4. Unique Automators Club Member -->
+            <div class="glass-card activity-card reveal" id="act-4">
+              <div class="activity-header-row">
+                <div class="exp-badge"><i class="fa-solid fa-gears"></i></div>
+                <span class="role-pill member">Member</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>Unique Automators</h3>
+              </div>
+              <p class="activity-desc">
+                Participate in activities related to automation technologies,
+                robotic process flows, innovative problem-solving, and emerging
+                technical solutions.
+              </p>
+            </div>
+
+            <!-- 5. Game Development Club Member -->
+            <div class="glass-card activity-card reveal" id="act-5">
+              <div class="activity-header-row">
+                <div class="exp-badge"><i class="fa-solid fa-gamepad"></i></div>
+                <span class="role-pill member">Member</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>Game Dev Club</h3>
+              </div>
+              <p class="activity-desc">
+                Explore interactive game design concepts, C# scripting
+                mechanics, asset rendering workflows, creativity in UI/UX
+                systems, and emerging game technologies.
+              </p>
+            </div>
+
+            <!-- 6. NCC Cadet -->
+            <div class="glass-card activity-card reveal" id="act-6">
+              <div class="activity-header-row">
+                <div class="exp-badge">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <span class="role-pill cadet">Cadet</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>National Cadet Corps</h3>
+              </div>
+              <p class="activity-desc">
+                Develop leadership, self-discipline, responsibility, peer
+                teamwork, confidence, physical training, and commitment to
+                service through structured NCC activities.
+              </p>
+            </div>
+
+            <!-- 7. YRC Volunteer -->
+            <div class="glass-card activity-card reveal" id="act-7">
+              <div class="activity-header-row">
+                <div class="exp-badge">
+                  <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+                <span class="role-pill volunteer">Volunteer</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>Youth Red Cross</h3>
+              </div>
+              <p class="activity-desc">
+                Participate in health awareness programs, community service,
+                humanitarian disaster aid training, social welfare drives, and
+                local volunteer initiatives.
+              </p>
+            </div>
+
+            <!-- 8. Active Web Dev Learner -->
+            <div class="glass-card activity-card reveal" id="act-8">
+              <div class="activity-header-row">
+                <div class="exp-badge"><i class="fa-solid fa-code"></i></div>
+                <span class="role-pill presenter">Active Learner</span>
+              </div>
+              <div class="activity-title-group">
+                <h3>Web Development</h3>
+              </div>
+              <p class="activity-desc">
+                Continuously building projects, learning modern frontend and
+                backend web frameworks, improving algorithmic coding
+                capabilities, and exploring emerging fullstack tech structures.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container" style="width: 100%">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p
+              style="
+                color: var(--text-secondary);
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+                line-height: 1.7;
+              "
+            >
+              I am always open to discussing web engineering internships,
+              collaboration opportunities, or general technical development
+              questions. Drop me an email or find my online channels.
+            </p>
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <a href="mailto:michealantojerrishc@gmail.com"
+                  >michealantojerrishc@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-text">
+                <h4>GitHub</h4>
+                <a
+                  href="https://github.com/Jerrish-py"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/Jerrish-py</a
+                >
+              </div>
+            </div>
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contact-text">
+                <h4>LinkedIn</h4>
+                <a
+                  href="https://linkedin.com/in/micheal-anto-jerrish-b85197328"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/micheal-anto-jerrish-b85197328</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Premium Form -->
+          <form
+            class="glass-card contact-form reveal"
+            id="contact-form-card"
+            onsubmit="
+              event.preventDefault();
+              showConfirmationDialog();
+            "
+          >
+            <!-- Recipient email parameters in case the EmailJS template utilizes {{to_email}} / {{to_name}} variables -->
+            <input
+              type="hidden"
+              name="to_email"
+              value="michealantojerrishc@gmail.com"
+            />
+            <input
+              type="hidden"
+              name="to_name"
+              value="Micheal Anto Jerrish C"
+            />
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="from_name"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="reply_to"
+                class="form-control"
+                placeholder="your.name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                class="form-control"
+                placeholder="Describe your project or role..."
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="align-self: flex-start"
+            >
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <a href="#hero" class="footer-logo">
+          <i class="fa-solid fa-code"></i> <span>Jerrish.dev</span>
+        </a>
+        <div class="footer-socials">
+          <a
+            href="https://github.com/Jerrish-py"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/micheal-anto-jerrish-b85197328"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:michealantojerrishc@gmail.com" aria-label="Email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+        <p class="footer-copy">
+          &copy; 2026 Micheal Anto Jerrish C. All rights reserved. Crafted with
+          care and modern visual aesthetics.
+        </p>
+      </div>
+    </footer>
+
+    <!-- EmailJS Browser SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Main JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
